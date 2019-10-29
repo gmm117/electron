@@ -1,0 +1,23 @@
+{
+  "name": "electron_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmm117/electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmm117/electron/issues"
+  },
+  "homepage": "https://github.com/gmm117/electron#readme",
+  "devDependencies": {
+    "electron": "^7.0.0"
+  }
+}
