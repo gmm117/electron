@@ -1,6 +1,5 @@
 // app모듈과, BrowserWindow 모듈 할당
 const {app, BrowserWindow} = require('electron');
-const {markdown} = require('markdown');
 let win;
 
 app.on('ready', () =>{
@@ -15,7 +14,6 @@ app.on('ready', () =>{
             , webPreferences :{ defaultFontSize : 14}
         }
     );
-
     // 창이 ready 상태가되면 보여주기
     win.once('ready-to-show', function(){
         win.show();
@@ -27,13 +25,4 @@ app.on('ready', () =>{
 
     //개발자 도구 오픈
    win.webContents.openDevTools();
-
-  
-
-
-   
-
-   
-   
-
 });
