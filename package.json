@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/gmm117/electron#readme",
   "devDependencies": {
-    "electron": "^7.0.0"
+    "electron": "^11.5.0"
   }
 }
